@@ -8,7 +8,7 @@ These are my personal dotfiles that I use to configure all my computers for deve
 If you don't have `yadm` installed (e.g., on a clean install), then you can run this one-liner to install these dotfiles:
 
 ```bash
-curl -fsSL https://github.com/TheLocehiliosan/yadm/raw/master/yadm | /bin/bash -s -- clone https://github.com/reifiedbeans/dotfiles
+curl -fsSL https://github.com/TheLocehiliosan/yadm/raw/master/yadm | /bin/bash -s -- clone https://github.com/typeparameter/dotfiles
 ```
 
 This command grabs a working copy of `yadm` from GitHub for the sole purpose of cloning and bootstrapping the dotfiles. Of course, you should always verify the safety of a script before "curl-piping" it, so if you don't trust me or the author, verify it yourself.
@@ -16,7 +16,7 @@ This command grabs a working copy of `yadm` from GitHub for the sole purpose of 
 If you don't want to run this command for one reason or another, but still feel comfortable using `yadm`, ~~reconsider your thought process~~ you can [install `yadm`][install-yadm] and then clone the dotfiles:
 
 ```bash
-yadm clone https://github.com/reifiedbeans/dotfiles
+yadm clone https://github.com/typeparameter/dotfiles
 ```
 
 
@@ -57,4 +57,4 @@ These dotfiles are licensed under the [MIT License](LICENSE) so that others can 
 [homebrew]: https://brew.sh
 [brewfiles]: .config/brew
 [starship]: https://starship.rs
-[fork-me]: https://github.com/reifiedbeans/dotfiles/fork
+[fork-me]: https://github.com/typeparameter/dotfiles/fork
