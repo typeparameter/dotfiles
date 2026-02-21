@@ -11,10 +11,10 @@ fi
 
 echo 'Installing Homebrew formulae and casks...'
 
-brew bundle --file "$XDG_CONFIG_HOME/brew/Brewfile.base" --no-lock --no-upgrade
+brew bundle --file "$XDG_CONFIG_HOME/brew/Brewfile.base" --no-upgrade
 
 if [[ -n '{{yadm.class}}' ]]; then
-	brew bundle --file "$XDG_CONFIG_HOME/brew/Brewfile.{{yadm.class}}" --no-lock --no-upgrade
+	brew bundle --file "$XDG_CONFIG_HOME/brew/Brewfile.{{yadm.class}}" --no-upgrade
 fi
 
 echo 'Successfully installed Homebrew formulae and casks.'
