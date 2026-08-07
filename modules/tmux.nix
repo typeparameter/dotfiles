@@ -26,6 +26,13 @@
           set -g @yank_action 'copy-pipe'
         '';
       }
+      {
+        plugin = better-mouse-mode;
+        extraConfig = ''
+          set -g @scroll-without-changing-pane 'on'
+          set -g @emulate-scroll-for-no-mouse-alternate-buffer 'on'
+        '';
+      }
     ];
 
     extraConfig = ''
