@@ -1,6 +1,11 @@
-{ pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
+  home.packages = lib.optionals pkgs.stdenv.isLinux [
+    # Needed for tmux-yank plugin
+    pkgs.xsel
+  ];
+
   programs.tmux = {
     enable = true;
 
