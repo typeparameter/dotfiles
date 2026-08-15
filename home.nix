@@ -88,7 +88,7 @@
     home-manager.autoExpire = {
       enable = true;
       frequency = "daily";
-      timestamp = "-30 days";
+      timestamp = "-3 days";
     };
   };
 
