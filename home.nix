@@ -78,17 +78,19 @@
       enableZshIntegration = true;
     };
 
+    nh = {
+      enable = true;
+
+      clean = {
+        enable = true;
+        dates = "daily";
+        extraArgs = "--keep 2 --keep-since 5d";
+      };
+    };
+
     nix-your-shell = {
       enable = true;
       enableZshIntegration = true;
-    };
-  };
-
-  services = {
-    home-manager.autoExpire = {
-      enable = true;
-      frequency = "daily";
-      timestamp = "-3 days";
     };
   };
 
