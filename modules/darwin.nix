@@ -14,7 +14,7 @@ let
     tile-type = "file-tile";
   };
 in
-lib.mkIf pkgs.stdenv.isDarwin {
+lib.mkIf pkgs.stdenv.hostPlatform.isDarwin {
   targets.darwin.defaults = {
     NSGlobalDomain = {
       ApplePressAndHoldEnabled = false;

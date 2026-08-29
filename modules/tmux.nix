@@ -1,7 +1,7 @@
 { lib, pkgs, ... }:
 
 {
-  home.packages = lib.optionals pkgs.stdenv.isLinux [
+  home.packages = lib.optionals pkgs.stdenv.hostPlatform.isLinux [
     # Needed for tmux-yank plugin
     pkgs.xsel
   ];
