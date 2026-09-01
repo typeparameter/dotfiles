@@ -17,7 +17,7 @@
     ./modules/go.nix
     ./modules/gradle.nix
     ./modules/neovim.nix
-    ./modules/node.nix
+    ./modules/nodejs.nix
     ./modules/python.nix
     ./modules/ruby.nix
     ./modules/rust.nix
