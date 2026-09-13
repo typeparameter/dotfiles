@@ -1,6 +1,10 @@
 { config, ... }:
 
 {
+  programs.pnpm = {
+    enable = true;
+  };
+
   programs.npm = {
     enable = true;
 

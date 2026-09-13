@@ -38,7 +38,6 @@
       diffutils
       gnugrep
       jq
-      pnpm
     ]
     ++ lib.optionals stdenv.hostPlatform.isLinux [
       trash-cli
