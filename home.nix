@@ -8,6 +8,7 @@
 {
   imports = [
     ./local.nix
+    ./modules/claude-code.nix
     ./modules/codex.nix
     ./modules/darwin.nix
     ./modules/docker.nix
