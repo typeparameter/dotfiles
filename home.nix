@@ -16,6 +16,7 @@
     ./modules/ghostty.nix
     ./modules/git.nix
     ./modules/go.nix
+    ./modules/gpg.nix
     ./modules/gradle.nix
     ./modules/neovim.nix
     ./modules/nodejs.nix
